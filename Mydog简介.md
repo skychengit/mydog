@@ -48,12 +48,13 @@
   </context> 
 </generatorConfiguration>
 ```
-# 导入说明 mydog-test/pom.xml
+# 导入说明 mydog-test/pom.xml 
+（特别注意，尚未上传 maven仓库，所以直接写这个肯定是下载不成功的）
 ```
 <plugins>
 	<plugin>
 		<groupId>io.mycat</groupId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>0.5</version>
 		<artifactId>mydog-core</artifactId>
 		<configuration>
                         <!-- mvn启动精简参数 -->
