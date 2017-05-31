@@ -48,4 +48,25 @@
   </context> 
 </generatorConfiguration>
 ```
+# 导入说明 mydog-test/pom.xml
+```
+<plugins>
+	<plugin>
+		<groupId>io.mycat</groupId>
+		<version>0.0.1-SNAPSHOT</version>
+		<artifactId>mydog-core</artifactId>
+		<configuration>
+                        <!-- mvn启动精简参数 -->
+			<goalPrefix>mydog-core</goalPrefix>
+                         /*配置文件 generatorConfig.xml 所在位置*/
+			<configXml>src/main/resources/generatorConfig.xml</configXml>
+		</configuration>
+	</plugin>
+</plugins>
+```
 
+# 运行
+```
+cd mydog-test 
+mvn mydog-core:touch
+```
