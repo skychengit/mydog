@@ -71,3 +71,6 @@
 cd mydog-test 
 mvn mydog-core:touch
 ```
+最后欢迎使用者贡献模版，提供maven项目，最好提供一个完整项目，实现一个基本的增删改查功能<br/>
+联系人：Gary<br/>
+email:hpgary@qq.com
