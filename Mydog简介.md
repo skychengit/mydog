@@ -49,7 +49,7 @@
 </generatorConfiguration>
 ```
 # 导入说明 mydog-test/pom.xml 
-（特别注意，尚未上传 maven仓库，所以直接写这个肯定是下载不成功的）
+（特别注意，尚未上传 maven仓库，所以直接写这个肯定是下载不成功的,需要下载项目源码）
 ```
 <plugins>
 	<plugin>
