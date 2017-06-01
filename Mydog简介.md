@@ -68,7 +68,9 @@
 
 # 运行
 ```
-cd mydog-test 
+# 在项目根目录下编译，
+mvn package -DskipTests -Djar
+cd mydog-test
 mvn mydog-core:touch
 ```
 最后欢迎使用者贡献模版，提供maven项目，最好提供一个完整项目，实现一个基本的增删改查功能<br/>
